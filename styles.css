@@ -266,6 +266,18 @@ h3 {
   color: var(--muted);
 }
 
+.text-link {
+  display: inline-block;
+  margin-top: 18px;
+  color: var(--gold-dark);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  color: var(--ink);
+}
+
 .feature {
   display: grid;
   grid-template-columns: 1.08fr .92fr;
